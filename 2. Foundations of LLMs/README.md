@@ -48,6 +48,45 @@ Common Optimizers:
 - **Gradient Descent**: Updates weights in the direction of the steepest decrease of the loss.
 - **Stochastic Gradient Descent (SGD)**: A variant of gradient descent that updates weights using only a single data point.
 - **Adam**: Combines the best properties of other optimization algorithms to provide faster convergence.
+---
+### 2.2 Basics of Neural Networks
+
+Neural networks form the backbone of deep learning, providing the framework for constructing complex models that can recognize patterns and make decisions.
+
+#### What are Neural Networks?
+
+Neural networks are computational models inspired by the human brain, consisting of interconnected units called neurons. These neurons receive input, process it, and transmit the output to other neurons. This structure allows neural networks to learn from data by adjusting the connections (weights) between neurons.
+
+#### Key Components
+
+1. **Neuron**: The basic unit of computation in a neural network.
+2. **Weight**: A connection strength between two neurons, adjusted during training.
+3. **Bias**: An additional parameter associated with each neuron that allows the model to fit the training data better.
+
+#### Network Architectures
+
+1. **Single Layer Perceptron (SLP)**: The simplest form of a neural network with no hidden layers.
+2. **Multi-Layer Perceptron (MLP)**: A network with one or more hidden layers between the input and output layers.
+3. **Convolutional Neural Networks (CNNs)**: Specialized for processing structured grid data such as images.
+4. **Recurrent Neural Networks (RNNs)**: Designed to handle sequential data, with neurons that have feedback connections.
+
+#### Training Neural Networks
+
+Training a neural network involves adjusting the weights and biases of the network to minimize the difference between the predicted output and the actual output.
+
+1. **Forward Propagation**: The process of passing input data through the network to get the output.
+2. **Backpropagation**: The method of calculating the gradient of the loss function with respect to each weight by the chain rule, moving the error backward through the network.
+3. **Gradient Descent**: An optimization algorithm that iteratively moves the weights in the direction that reduces the loss.
+
+#### Challenges in Training
+
+1. **Overfitting**: When a model learns the training data too well, including the noise.
+2. **Underfitting**: When a model is too simple to learn the underlying pattern of the data.
+3. **Vanishing/Exploding Gradients**: When gradients become too small or too large, hindering the network's training.
+
+### Next Steps
+
+Having understood the basics of neural networks, we will next explore how they can be structured to handle sequences in the context of language modeling. Stay tuned for the upcoming sections on Sequence-to-Sequence Models and Transformers and Attention Mechanisms.
 
 ---
 
